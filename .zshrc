@@ -106,6 +106,8 @@ source $ZSH/oh-my-zsh.sh
 # Setup all my alias
 alias pls="sudo"
 alias restart="zsh"
+alias toolbox="~/apps/jetbrains-toolbox/"
+echo "Die Aliase pls, restart und toolbox wurden festgelegt."
 
 # Update
 echo "Paketlisten updaten..."

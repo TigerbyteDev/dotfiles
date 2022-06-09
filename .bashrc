@@ -118,9 +118,9 @@ fi
 
 # Updaten
 echo "Paketlisten aktualisieren..."
-pls apt update
+# pls apt update
 echo "neue Updates installieren..."
-pls apt upgrade
+# pls apt upgrade
 
 # Styling
 clear

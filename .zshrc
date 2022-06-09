@@ -3,6 +3,8 @@ export PATH=$HOME/bin:/usr/local/bin:$HOME/.local/bin:$PATH
 
 # Add NPM; Volta, etc
 source ~/.profile
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -106,14 +108,15 @@ source $ZSH/oh-my-zsh.sh
 # Setup all my alias
 alias pls="sudo"
 alias restart="zsh"
+alias intellij="~/.local/share/JetBrains/Toolbox/apps/IDEA-U/ch-0/221.5787.30/bin/idea.sh"
 alias toolbox="~/apps/jetbrains-toolbox"
-echo "Die Aliase pls, restart und toolbox wurden festgelegt."
+echo "Die Aliase pls, restart, intellij und toolbox wurden festgelegt."
 
 # Update
 echo "Paketlisten updaten..."
-sudo apt update
+#sudo apt update
 echo "Apps updaten..."
-sudo apt upgrade
+#sudo apt upgrade
 
 # Style
 clear
